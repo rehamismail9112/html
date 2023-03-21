@@ -1,0 +1,93 @@
+nav {
+    background-color: grey;
+    padding: 15px ;
+}
+nav a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+nav a:hover {
+    background-color: red;
+}
+
+.h1-position {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+}
+.border {
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+.top > p {
+    color: blue;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;  
+}
+
+
+header nav {
+    display: flex;
+    background-color: #5A5A5A;
+    padding: 0px 20px;
+}
+header nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    font-size: large;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: red;
+}
+table {
+    border: 2px solid #E0F0E8;
+    background-color: #F5FAF9;
+    margin-top: 10px;
+}
+
+
+.input-button {
+    width: 100px;
+}
+.table-title {
+    color: green;
+    font-size: larger;
+}
+.table-head-box {
+    border: 1px dotted green;
+    width: 100%;
+}
+.frow {
+    background-color: #E0F0E8;
+}
+.input-width {
+    width: 90%;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.734);
+    color: white;
+    text-align: center;
+  }
